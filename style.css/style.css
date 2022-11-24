@@ -147,3 +147,67 @@ nav a.btn_destaque {
 .margem_esquerda {
     margin-left: 30px;
 }
+
+@media screen and (max-width: 1000px) {    
+    .barra_superior .container {
+        margin-left: 10px;
+    }   
+    .logo {
+        margin-left: 10px;
+    } 
+    nav {
+        float: none;
+        margin-left: 10px;
+    }
+    .sec01 p, .sec01 .btn_destaque {
+        margin-left: 20px;
+    }
+   
+}
+
+@media screen and (max-width:560px) {
+    .logo {
+        width: 100%;
+    }
+    .largura40 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .sec03 {
+        background-image: none;
+        height: 450px;
+        text-align: center;
+        border-bottom: 1px solid rgb(204, 204, 204);
+    }
+    .sec03 p {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .um_terco {
+        width: 100%;
+        border-bottom: 1px solid rgb(204, 204, 204);
+        padding-left: 20px;
+    }
+
+    .margem_esquerda {
+        padding-left: 0px;
+    }
+
+    .um_terco .logo {
+        width: 50%;
+    }
+
+    .container_logo {
+        text-align: center;
+    }
+    nav {
+        text-align: center;
+        /* font-size: 12px; */
+    }
+    nav a.btn_destaque {
+        margin-left: 0;
+    }
+    
+}
